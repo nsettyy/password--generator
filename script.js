@@ -1,24 +1,12 @@
 // Assignment Code
 var generateBtn = document.querySelector("#generate");
 
+function generatePassword() {
+  console.log("button clicked")
+}
 
 
-// create function for generatePassword
 
-// prompt to get the number of characters in password
-  // var numberOfCharacters = prompt("How many characters do you want")
-  // numberOfCharacters = parseInt(numberOfCharacters)
-
-// need 4 if's with 4 confirmExpressionconditionals
-
-// processiog...
-
-// outcomes of passwords
-  // function generatePassword(){
-  //   return "xxx";
-  // }
-
-// google how to randomly select integer (math random in zoom video)
 
   // Write password to the #password input
 function writePassword() {
