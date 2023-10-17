@@ -38,6 +38,7 @@ function generatePassword() {
     choiceArray = choiceArray.concat(specialCharacters);
   }
   
+  //the code that picks the chcraters rnadomly for the password
   var password = "";
   for (var i = 0; i < length; i++) {
     var randomIndex = Math.floor(Math.random() * choiceArray.length);
